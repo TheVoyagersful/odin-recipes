@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card {
+    width: 400px;
+    background-color: lightcoral;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+.title {
+    font-family: Garamond, Georgia;
+    background-color: lightgoldenrodyellow;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.list {
+    list-style-type: none;
+    font-family: "Courier New", Arial;
+    background-color: lightcoral;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.bifana,
+.gelato {
+    margin-bottom: 20px;
+}
+
+.bifana,
+.gelato,
+.moscowmule {
+    font-family: "Courier New", Arial;
+    background-color: lightgoldenrodyellow;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
