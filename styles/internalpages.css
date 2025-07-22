@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+.buttoncontainer,
+.imagecontainer {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin-bottom: 2px;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+
+  font-family: Garamond, Georgia;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.card {
+  width: 500px;
+  margin: 20px auto;
+  padding: 5px 30px;
+  border: 3px solid black;
+  border-radius: 15px;
+
+  background-color: lightcoral;
+}
+
+.title,
+.descriptiontitle,
+.ingredientstitle,
+.preparationtitle {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+
+  font-family: Garamond, Georgia;
+  text-align: center;
+
+  background-color: lightgoldenrodyellow;
+}
+
+.image {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+ul,
+ol {
+  margin: 0 15px 10px 0;
+}
+
+li {
+  margin: 0 15px 10px 0;
+
+  font-family: "Courier New", Arial;
+  font-weight: bold;
+  text-align: justify;
+}
+
+p {
+  font-family: "Courier New", Arial;
+  font-weight: bold;
+  text-align: justify;
+}
